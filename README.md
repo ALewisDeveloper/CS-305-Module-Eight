@@ -1,1 +1,11 @@
-# CS-305-Module-Eight
+#Artemis Financial Secure Software Project
+
+Artemis Financial is a consulting firm specializing in individualized financial planning, encompassing savings, retirement, investment, and insurance strategies. The company required an updated public web interface to enhance the protection of sensitive client financial data. Specifically, Artemis Financial needed secure communication protocols and a file verification process to ensure data integrity during transmission. The primary challenge was the absence of encrypted communication and checksum validation in the existing software.
+
+During the vulnerability assessment and refactoring process, I identified deficiencies in secure communication practices and implemented HTTPS with TLS, as well as SHA-256 hashing for checksum verification. Secure coding is essential in financial applications due to the sensitivity of the information involved. A security breach may result in financial loss, legal consequences, and reputational harm. By implementing robust encryption, integrity validation, and static vulnerability scanning, I improved client trust and contributed to the company’s long-term stability.
+
+One of the most helpful aspects of the vulnerability assessment was learning how to interpret static analysis reports and understand how third-party dependencies can introduce security risks. I increased layers of security by adding TLS encryption, secure key management using a PKCS#12 keystore, and SHA-256 checksum validation. After refactoring, I used OWASP Dependency-Check to ensure that no new vulnerabilities were introduced. In future projects, I would continue using automated static analysis tools, dependency scanning, and up-to-date cryptographic standards to guide mitigation decisions.
+
+To ensure continued functionality and security, I conducted multiple tests on the refactored application, verified HTTPS communication, confirmed checksum generation, and reviewed dependency-check reports. The tools and practices applied in this project, such as Maven, OWASP Dependency-Check, TLS configuration, and secure hashing, will be instrumental in future secure software development efforts.
+
+For prospective employers, this project demonstrates my capability to conduct vulnerability assessments, implement secure communication protocols, apply cryptographic standards, and validate security enhancements using industry-standard tools. It reflects practical experience in secure coding, risk mitigation, and security-oriented software development.
