@@ -1,4 +1,4 @@
-#Artemis Financial Secure Software Project
+Artemis Financial Secure Software Project
 
 Artemis Financial is a consulting firm specializing in individualized financial planning, encompassing savings, retirement, investment, and insurance strategies. The company required an updated public web interface to enhance the protection of sensitive client financial data. Specifically, Artemis Financial needed secure communication protocols and a file verification process to ensure data integrity during transmission. The primary challenge was the absence of encrypted communication and checksum validation in the existing software.
 
